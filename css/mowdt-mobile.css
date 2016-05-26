@@ -1,0 +1,136 @@
+body {
+  background-color: rgba(181,206,173,1);
+  background-image: none;
+  color: rgba(0,0,0,0.8);
+  font-family: 'munro', sans-serif;
+  font-size: 27px;
+  line-height: 140%;
+  -webkit-font-smoothing: none;
+}
+
+@font-face {
+  font-family: 'munro'; /* munro sizes: 11px 17 21 27 36 */
+  src: url('../fonts/Munro-webfont.eot');
+  src: url('../fonts/Munro-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Munro-webfont.woff2') format('woff2'),
+       url('../fonts/Munro-webfont.woff') format('woff'),
+       url('../fonts/Munro-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nokia_cellphone_fcsmall'; /* sizes: 8px 16 20 24 34 */
+  src: url('../fonts/nokiafc22-webfont.woff2') format('woff2'),
+       url('../fonts/nokiafc22-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'nokia_cellphone_fcsmall', sans-serif;
+  font-size: 42px;
+  line-height: 160%;
+}
+
+hr {
+  border: solid rgba(0,0,0,0.8) 2px;
+}
+
+h1.line {
+  display: table;
+  white-space: nowrap;
+}
+
+h1.line:before, h1.line:after {
+  border-top: 3px solid rgba(0,0,0,0.8);
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 45%;
+}
+
+h1.line:before {
+  right: 1.5%;
+}
+
+h1.line:after {
+  left: 1.5%;
+}
+
+h2 {
+  font-family: 'nokia_cellphone_fcsmall', sans-serif;
+  font-size: 34px;
+}
+
+h3 {
+  font-family: 'nokia_cellphone_fcsmall', sans-serif;
+  font-size: 24px;
+}
+
+h3 em {
+  font-size: 80%;
+  font-weight: normal;
+}
+
+p {
+	font-family: 'munro', sans-serif;
+}
+
+a:link, a:hover, a:visited {
+  color: rgba(0,0,0,1);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+a:active {
+  background-color: rgba(0,0,0,1);
+  color: rgba(181,206,173,1);
+  text-decoration: none;
+}
+
+p a {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+li:before {
+  content: "» ";
+}
+
+.small {
+  font-size: 10px;
+}
+
+.header-list h3::before {
+  content: ">> ";
+}
+
+.header-list h3 {
+  line-height: 80% ;
+}
+
+.bottom-bar {
+  background-color: rgba(181,206,173,1);
+  bottom: 0;
+  font-family: 'nokia_cellphone_fcsmall', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+
+.bottom-bar .options {
+  float: left;
+}
+
+.bottom-bar .back {
+  cursor: pointer;
+  float: right;
+  margin-right: 25px;
+}
