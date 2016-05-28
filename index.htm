@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+  <script type="text/javascript">
+  <!--
+    function getWidth() {
+      if (self.innerHeight) {
+        return self.innerWidth;
+      }
+
+      if (document.documentElement && document.documentElement.clientWidth) {
+        return document.documentElement.clientWidth;
+      }
+
+      if (document.body) {
+        return document.body.clientWidth;
+      }
+    }
+
+    if (getWidth() <= 1000) {
+    document.location.href = "main.htm";
+    }
+    //-->
+  </script>
+
+</head>
+
 <frameset cols="300,*">
   <frame name="nav" src="nav.htm">
   <frame name="main" src="main.htm">
 </frameset>
 
 <noframes>
-  <body>Yep, really, you need frames for this replica vintage website. <a href="http://stephthegeek.com">StephTheGeek 2000-2016</a></body>
+  <body>You need frames to travel back in time to this website. <a href="http://stephthegeek.com">StephTheGeek 2000-2016</a></body>
 </noframes>
 </html>

@@ -1,45 +1,70 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <link href="css/mowd.css" rel="stylesheet">
+    <link href="css/mowd-mobile.css" rel="stylesheet">
   </head>
-  <body background="images/blue-bg.jpg" text="white" link="yellow" class="mowd"><font face="Georgia, Times New Roman, Times, serif">
-    <center><br><br>
-    <h1>Welcome to The Museum of Web Design Techniques!</h1>
+  <body class="mowd">
+    <h1>Welcome to The Museum of Web Design!</h1>
+
+    <hr />
 
     <h3>Latest News</h3>
     <p>
       <ul>
         <li>First section published, covering HTML frames</li>
-        <li>Official launch of The Museum of Web Design Techniques</li>
+        <li>Official launch of The Museum of Web Design</li>
       </ul>
     </p>
 
+    <hr />
+
     <h2>The Exhibits</h2>
 
-    <p><font face="Courier New, Courier, monospace" size="3">Please click on one of the following links to see our exhibits, or use the buttons to the left. Use your Browser's back button to return to this page.</font></p></font>
+    <p>Please click on one of the following links to see our exhibits, or use the buttons to the left. Use your Browser's back button to return to this page.</font></p></font>
 
-    <table border="2" cellpadding="5" cellspacing="2">
-      <tr>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>The restrictive web</b></font> <font color="gray" size="2"><i>1992-2012</i></td>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b><a href="frames.htm" target="_top">A matter of framing</a></b></font> <img src="images/hot.gif"> <font color="gray" size="2"><i>1996-2006</i></td>
-      </tr>
-      <tr>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>Layout Sorcery</b></font> <font color="gray" size="2"><i>1995-2008</i></td>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>Early era of movement</b></font> <font color="gray" size="2"><i>1997-2003</i></td>
-      </tr>
-      <tr>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>The Hall of GIFs</b></font> <font color="gray" size="2"><i>1994-2000</i></td>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>Paste this code...</b></font> <font color="gray" size="2"><i>1996-2012</i></td>
-      </tr>
-      <tr>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>The Big Three</b></font> <font color="gray" size="2"><i>1995-2010</i></td>
-        <td><font face="Courier New, Courier, monospace" size="4" color="yellow"><b>The Legends</b></font> <font color="gray" size="2"><i>1994-2016</i></td>
-      </tr>
-    </table>
-    <br><font size="2" color="grey">Last updated: May 26, 2016</font>
-    <br><br><img src="images/contents-under-construction.gif" vspace="10">
-    <br><br><br><img src="http://www.e-zeeinternet.com/count.php?page=1098393&style=LED_g&nbdigits=6"><br>
-    <br><br>Would you like to contribute a guest exhibit? <a href="mailto:stephthegeek@gmail.com">Click here</a> to send an email!
-  </center>
+    <ul class="exhibits">
+      <li>
+        The restrictive web
+      </li>
+      <li>
+        <a href="frames.htm" target="_top">A matter of framing</a>
+      </li>
+      <li>
+        Layout Sorcery
+      </li>
+      <li>
+        Early era of movement
+      </li>
+      <li>
+        The Hall of GIFs
+      </li>
+      <li>
+        Paste this code
+      </li>
+      <li>
+        The Big Three
+      </li>
+      <li>
+        The Legends
+      </li>
+    </ul>
+
+    <div class="mowd">
+      <br><div class="footer">Last updated: May 29, 2016</div>
+      <br><br><img src="images/contents-under-construction.gif">
+      <br><br><br><img src="http://www.e-zeeinternet.com/count.php?page=1098393&style=LED_g&nbdigits=6"><br>
+      <br><br>Would you like to contribute a guest exhibit? <a href="mailto:stephthegeek@gmail.com">Click here</a> to send an email!
+    </div>
+
+    <div class="mowd-mobile bottom-bar">
+      <a class="options">
+        Options
+      </a>
+      <a class="back" onclick="history.back(-1)">
+        Back
+      </a>
+    </div>
+
   </body>
 </html>

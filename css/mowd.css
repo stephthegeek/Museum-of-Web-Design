@@ -9,3 +9,30 @@ body {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+
+ul.exhibits {
+  color: rgb(255,255,0);
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 140%;
+  list-style-type: none;
+}
+
+ul.exhibits li {
+  float: left;
+  width: 250px;
+}
+
+.footer {
+  clear: both;
+  margin-top: 50px;
+}
+
+.mowd-mobile {
+  display: none;
+}
+
+.mowd {
+  padding-bottom: 50px;
+}
