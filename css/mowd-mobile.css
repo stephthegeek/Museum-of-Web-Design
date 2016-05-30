@@ -136,7 +136,7 @@
     display: block;
   }
 
-  ul.exhibits {
+  ul.exhibits li {
     font-size: 27px;
     font-weight: normal;
   }
