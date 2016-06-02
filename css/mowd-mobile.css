@@ -7,6 +7,7 @@
     font-family: 'munro', sans-serif;
     font-size: 27px;
     line-height: 140%;
+    opacity: .9;
     -webkit-font-smoothing: none;
   }
 
@@ -111,8 +112,9 @@
   }
 
   img {
-    -webkit-filter: contrast(400%) grayscale(100%); /* Chrome, Safari, Opera */
-    filter: contrast(400%) grayscale(100%);
+    -webkit-filter: contrast(300%) sepia(100%) hue-rotate(36deg) brightness(78%); /* Chrome, Safari, Opera */
+    filter: contrast(300%) sepia(100%) hue-rotate(36deg) brightness(78%);
+    opacity: .8;
     width: 100%;
   }
 
